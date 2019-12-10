@@ -32,13 +32,17 @@
 
 def naming_system
 PORTION_1 = { :Kingdom => "", 
-              :sub_category: ==>{
+              :sub_category: =>{
                 :label => "Phylum",
-                :sub_category: {
+                :sub_category => {
                   :label=> "Class"
+                  :sub_category =>{
+                    :label => "Order"
+                    :sub_category => 
+                    }
                   }
               }
-}
+            }
 
 PORTION_2 = {
   :label => "Order"
